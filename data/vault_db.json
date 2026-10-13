@@ -1,0 +1,843 @@
+{
+  "users": [
+    {
+      "id": "user-001",
+      "email": "Fjm.khi@gmail.com",
+      "name": "Jordan Hayes",
+      "passwordHash": "687640206a869c890b59910f7aaa7a71f07fb08ce47e2a7646c9d936fd5db01e1764e19d465b1c51c7fcd20b4381828afe87c9a2bac6ecd4b75094e9c1116117",
+      "salt": "aa1ca2692dae3579cd292746f0aed972",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "user-1791911194541",
+      "email": "alice@test.com",
+      "name": "Alice Tester",
+      "passwordHash": "32cd765f8c92811afcd75ac866cfad030d6ec83b215b3048fc4e4463af14c52ccd77594a1e3b0c4bd47f090988bd26c6d2c9c0c5361c1e497c6ac83eb28f3987",
+      "salt": "3b35b49499a51b3480a9cc6c9a77e84f",
+      "createdAt": "2026-10-13T17:06:34.541Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-001",
+      "title": "TechNova Cloud Services Monthly SLA Invoice #INV-2026-8841",
+      "fileName": "TechNova_Invoice_INV2026_8841.pdf",
+      "documentType": "Invoice",
+      "folderId": "folder-fin",
+      "folderName": "Finance & Tax",
+      "tags": [
+        "Invoice",
+        "Cloud Infrastructure",
+        "Q3 2026",
+        "Deductible",
+        "TechNova"
+      ],
+      "scannedAt": "2026-09-28T14:32:10.000Z",
+      "updatedAt": "2026-10-13T17:07:14.557Z",
+      "fileSizeBytes": 248190,
+      "mimeType": "image/jpeg",
+      "imageUrl": "data:image/svg+xml;utf8,<svg></svg>",
+      "fullText": "Updated Invoice v2",
+      "summary": "Revised billing summary",
+      "extractedFields": [
+        {
+          "key": "Vendor",
+          "value": "TechNova Networks Inc."
+        },
+        {
+          "key": "Invoice Number",
+          "value": "INV-2026-8841"
+        },
+        {
+          "key": "Invoice Date",
+          "value": "2026-09-28"
+        },
+        {
+          "key": "Due Date",
+          "value": "2026-10-28"
+        },
+        {
+          "key": "Total Amount",
+          "value": "$4,601.00 USD"
+        },
+        {
+          "key": "Subtotal",
+          "value": "$4,280.00"
+        },
+        {
+          "key": "Tax (7.5%)",
+          "value": "$321.00"
+        },
+        {
+          "key": "Payment Terms",
+          "value": "Net 30"
+        }
+      ],
+      "confidenceScore": 0.98,
+      "language": "English",
+      "isStarred": true,
+      "isArchived": false,
+      "cloudStorage": {
+        "provider": "DocuVault Encrypted Cloud Storage",
+        "bucket": "docuvault-secure-vault-east1",
+        "storageKey": "finance/2026/INV-2026-8841_technova.enc",
+        "encryptionCipher": "AES-256-GCM",
+        "checksumSHA256": "656ce25969430120b96fd283db7fb72933bc1a71173456000913cbe52065dbe7",
+        "syncStatus": "synced",
+        "replicaRegions": [
+          "asia-east1",
+          "us-central1"
+        ],
+        "version": 2
+      },
+      "auditTrail": [
+        {
+          "timestamp": "2026-09-28T14:32:10.000Z",
+          "action": "SCAN_INGESTED",
+          "details": "Document scanned with high resolution camera",
+          "operator": "Fjm.khi@gmail.com"
+        },
+        {
+          "timestamp": "2026-09-28T14:32:14.000Z",
+          "action": "OCR_EXTRACTED",
+          "details": "Gemini multimodal OCR extracted 184 words with 98% confidence",
+          "operator": "DocuVault OCR Engine"
+        },
+        {
+          "timestamp": "2026-09-28T14:32:15.000Z",
+          "action": "CLOUD_ENCRYPTED",
+          "details": "Encrypted using AES-256-GCM and replicated to 2 cloud regions",
+          "operator": "DocuVault Cloud Security"
+        },
+        {
+          "timestamp": "2026-10-13T17:07:14.557Z",
+          "action": "NEW_VERSION_INGESTED",
+          "details": "Scanned & saved Version 2 (Applied vendor credit discount)",
+          "operator": "Jordan Hayes"
+        }
+      ],
+      "userId": "user-001",
+      "currentVersion": 2,
+      "versions": [
+        {
+          "versionNumber": 1,
+          "scannedAt": "2026-09-28T14:32:10.000Z",
+          "changeNote": "Initial scan ingestion",
+          "fileName": "TechNova_Invoice_INV2026_8841.pdf",
+          "fileSizeBytes": 248190,
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20800%22%20width%3D%22600%22%20height%3D%22800%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cfilter%20id%3D%22paper-shadow%22%20x%3D%22-5%25%22%20y%3D%22-5%25%22%20width%3D%22110%25%22%20height%3D%22110%25%22%3E%0A%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%228%22%20stdDeviation%3D%2212%22%20flood-color%3D%22%230f172a%22%20flood-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22stamp-grad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23059669%22%20stop-opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23047857%22%20stop-opacity%3D%220.9%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3C!--%20Paper%20Sheet%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22560%22%20height%3D%22760%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221.5%22%20filter%3D%22url(%23paper-shadow)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2222%22%20y%3D%2222%22%20width%3D%22556%22%20height%3D%22756%22%20rx%3D%223%22%20fill%3D%22%23fafafa%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%3C!--%20Top%20Header%20Bar%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2250%22%20y%3D%2245%22%20width%3D%22500%22%20height%3D%222%22%20fill%3D%22%230f172a%22%20opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2275%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22bold%22%20fill%3D%22%230f172a%22%3ETechNova%20Cloud%20Services%20-%20Invoice%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2298%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22600%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221%22%3EINVOICE%20%C2%B7%20VERIFIED%20ARCHIVE%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2275%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20fill%3D%22%2364748b%22%3EDATE%3A%202026-09-28%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2295%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b8%22%3EDOC%20ID%3A%20%23849C9C79%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22112%22%20x2%3D%22550%22%20y2%3D%22112%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%224%2C4%22%2F%3E%0A%0A%20%20%20%20%3C!--%20Content%20Lines%20--%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22140%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ETECHNOVA%20NETWORKS%20INC.%20-%20GLOBAL%20CLOUD%20SOLUTIONS%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22162%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EInvoice%20Number%3A%20INV-2026-8841%20%7C%20Billing%20Period%3A%20Sep%201%20-%20Sep%2030%2C%202026%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22184%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EClient%3A%20Apex%20Global%20Enterprises%20LLC%20%7C%20Account%3A%20%23994-A109%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22206%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22228%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EITEM%201%3A%20Kubernetes%20Cluster%20(48%20vCPU%2C%20192GB%20RAM)%20.....%20%242%2C450.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22250%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EITEM%202%3A%20Object%20Storage%20Vault%20(12TB%20High-Durability)%20..%20%24%20480.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22272%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EITEM%203%3A%20Managed%20Postgres%20Multi-Region%20Replica%20.......%20%24%20950.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22294%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EITEM%204%3A%20Data%20Egress%20Bandwidth%20%26%20CDN%20Transit%20........%20%24%20400.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22316%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22338%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ESUBTOTAL%3A%20%244%2C280.00%20%7C%20SALES%20TAX%20(7.5%25)%3A%20%24321.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22360%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ETOTAL%20AMOUNT%20DUE%3A%20%244%2C601.00%20USD%20(Net%2030%20Terms)%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22382%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EWire%20Instructions%3A%20Silicon%20Valley%20Depository%20Bank%20(ABA%3A%20121000358)%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22404%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EAuthorized%20Signature%3A%20Marcus%20Vance%2C%20VP%20of%20Finance%3C%2Ftext%3E%0A%0A%20%20%20%20%3C!--%20Watermark%20%2F%20Security%20Stamp%20--%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(410%2C%20640)%20rotate(-12)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22130%22%20height%3D%2248%22%20rx%3D%226%22%20fill%3D%22none%22%20stroke%3D%22%23059669%22%20stroke-width%3D%222.5%22%20stroke-dasharray%3D%226%2C2%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2220%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221.5%22%3EDOCUVAULT%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%3ESECURE%20OCR%20CLOUD%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fg%3E%0A%0A%20%20%20%20%3C!--%20Footer%20Bar%20%26%20Barcode%20simulation%20--%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22710%22%20x2%3D%22550%22%20y2%3D%22710%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22735%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20fill%3D%22%2394a3b8%22%3ECLOUD%20STORAGE%20REPLICA%3A%20ASIA-EAST%20%2F%20US-CENTRAL%20%C2%B7%20SHA-256%20VERIFIED%3C%2Ftext%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(50%2C%20745)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%224%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%227%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2212%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2216%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2219%22%20y%3D%220%22%20width%3D%224%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2229%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2233%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2238%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2243%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fsvg%3E",
+          "fullText": "TECHNOVA NETWORKS INC.\n100 Innovation Way, Suite 800, San Francisco, CA 94107\nTax ID: 84-2910382 | Support: support@technova.cloud\n\nINVOICE\nInvoice Number: INV-2026-8841\nInvoice Date: September 28, 2026\nPayment Due Date: October 28, 2026 (Net 30)\nPO Reference: PO-892110-CORP\n\nBILLED TO:\nApex Global Enterprises LLC\nAttn: Accounts Payable / Jordan K. Hayes\n450 Mission Street, 14th Floor\nSan Francisco, CA 94105\n\nLINE ITEMS:\n1. Enterprise Kubernetes Dedicated Cluster (48 vCPU, 192GB RAM Node Pool) - $2,450.00\n2. Encrypted Object Storage Vault Tier-1 (12 Terabytes, 99.999999999% Durability) - $480.00\n3. Distributed Managed PostgreSQL Cluster (Zero-Downtime Multi-Region Replica) - $950.00\n4. Global CDN Edge Delivery & Direct Egress Bandwidth (18.4 TB Transfer) - $400.00\n\nFINANCIAL SUMMARY:\nSubtotal: $4,280.00\nState & Municipal Technology Surcharge (7.5%): $321.00\nTOTAL DUE: $4,601.00 USD\n\nRemittance Information:\nBeneficiary: TechNova Networks Inc.\nBank: Silicon Valley Depository Bank\nRouting Number / ABA: 121000358\nAccount Number: 9811029410\nSWIFT / BIC: SVDBUS6SXXX",
+          "summary": "Monthly enterprise cloud infrastructure invoice from TechNova Networks Inc. covering Kubernetes cluster compute, object storage, and managed database services totaling $4,601.00 due October 28, 2026.",
+          "extractedFields": [
+            {
+              "key": "Vendor",
+              "value": "TechNova Networks Inc."
+            },
+            {
+              "key": "Invoice Number",
+              "value": "INV-2026-8841"
+            },
+            {
+              "key": "Invoice Date",
+              "value": "2026-09-28"
+            },
+            {
+              "key": "Due Date",
+              "value": "2026-10-28"
+            },
+            {
+              "key": "Total Amount",
+              "value": "$4,601.00 USD"
+            },
+            {
+              "key": "Subtotal",
+              "value": "$4,280.00"
+            },
+            {
+              "key": "Tax (7.5%)",
+              "value": "$321.00"
+            },
+            {
+              "key": "Payment Terms",
+              "value": "Net 30"
+            }
+          ],
+          "confidenceScore": 0.98,
+          "checksumSHA256": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+          "operator": "Jordan Hayes"
+        },
+        {
+          "versionNumber": 2,
+          "scannedAt": "2026-10-13T17:07:14.557Z",
+          "changeNote": "Applied vendor credit discount",
+          "fileName": "TechNova_Invoice_INV2026_8841.pdf",
+          "fileSizeBytes": 248190,
+          "imageUrl": "data:image/svg+xml;utf8,<svg></svg>",
+          "fullText": "Updated Invoice v2",
+          "summary": "Revised billing summary",
+          "extractedFields": [
+            {
+              "key": "Vendor",
+              "value": "TechNova Networks Inc."
+            },
+            {
+              "key": "Invoice Number",
+              "value": "INV-2026-8841"
+            },
+            {
+              "key": "Invoice Date",
+              "value": "2026-09-28"
+            },
+            {
+              "key": "Due Date",
+              "value": "2026-10-28"
+            },
+            {
+              "key": "Total Amount",
+              "value": "$4,601.00 USD"
+            },
+            {
+              "key": "Subtotal",
+              "value": "$4,280.00"
+            },
+            {
+              "key": "Tax (7.5%)",
+              "value": "$321.00"
+            },
+            {
+              "key": "Payment Terms",
+              "value": "Net 30"
+            }
+          ],
+          "confidenceScore": 0.98,
+          "checksumSHA256": "656ce25969430120b96fd283db7fb72933bc1a71173456000913cbe52065dbe7",
+          "operator": "Jordan Hayes"
+        }
+      ]
+    },
+    {
+      "id": "doc-002",
+      "title": "Commercial Lease Agreement - Suite 402 Metro Tower",
+      "fileName": "Metro_Tower_Commercial_Lease_Executed.pdf",
+      "documentType": "Contract",
+      "folderId": "folder-leg",
+      "folderName": "Legal & Contracts",
+      "tags": [
+        "Contract",
+        "Commercial Lease",
+        "Real Estate",
+        "Office",
+        "Executed"
+      ],
+      "scannedAt": "2026-08-15T11:14:00.000Z",
+      "updatedAt": "2026-08-15T11:14:00.000Z",
+      "fileSizeBytes": 512400,
+      "mimeType": "image/jpeg",
+      "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20800%22%20width%3D%22600%22%20height%3D%22800%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cfilter%20id%3D%22paper-shadow%22%20x%3D%22-5%25%22%20y%3D%22-5%25%22%20width%3D%22110%25%22%20height%3D%22110%25%22%3E%0A%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%228%22%20stdDeviation%3D%2212%22%20flood-color%3D%22%230f172a%22%20flood-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22stamp-grad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23059669%22%20stop-opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23047857%22%20stop-opacity%3D%220.9%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3C!--%20Paper%20Sheet%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22560%22%20height%3D%22760%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221.5%22%20filter%3D%22url(%23paper-shadow)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2222%22%20y%3D%2222%22%20width%3D%22556%22%20height%3D%22756%22%20rx%3D%223%22%20fill%3D%22%23fafafa%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%3C!--%20Top%20Header%20Bar%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2250%22%20y%3D%2245%22%20width%3D%22500%22%20height%3D%222%22%20fill%3D%22%230f172a%22%20opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2275%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22bold%22%20fill%3D%22%230f172a%22%3ECommercial%20Real%20Estate%20Lease%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2298%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22600%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221%22%3ECONTRACT%20%C2%B7%20VERIFIED%20ARCHIVE%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2275%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20fill%3D%22%2364748b%22%3EDATE%3A%202026-08-15%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2295%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b8%22%3EDOC%20ID%3A%20%2369581175%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22112%22%20x2%3D%22550%22%20y2%3D%22112%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%224%2C4%22%2F%3E%0A%0A%20%20%20%20%3C!--%20Content%20Lines%20--%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22140%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ECOMMERCIAL%20PROPERTY%20LEASE%20AGREEMENT%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22162%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EParties%3A%20Metro%20Real%20Estate%20Trust%20(Landlord)%20%26%20Nexus%20Innovations%20(Tenant)%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22184%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EPremises%3A%20Suite%20402%2C%20Metro%20Executive%20Tower%2C%20100%20Main%20Boulevard%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22206%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22228%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EARTICLE%201%3A%20TERM%20AND%20COMMENCEMENT%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22250%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ECommencement%20Date%3A%20November%201%2C%202026%20%7C%20Expiration%3A%20October%2031%2C%202029%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22272%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ETerm%20Duration%3A%20Thirty-Six%20(36)%20Consecutive%20Calendar%20Months%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22294%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EARTICLE%202%3A%20BASE%20RENT%20AND%20ESCALATION%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22316%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EBase%20Monthly%20Rent%3A%20%248%2C750.00%20USD%20(Payable%20on%201st%20of%20each%20month)%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22338%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ESecurity%20Deposit%3A%20%2417%2C500.00%20USD%20held%20in%20non-interest%20escrow%20account%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22360%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EAnnual%20Escalation%3A%203.25%25%20fixed%20per%20annum%20on%20anniversary%20date%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22382%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EARTICLE%203%3A%20PERMITTED%20USES%20%26%20OCCUPANCY%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22404%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EExclusive%20commercial%20office%20use%20for%20software%20development%20%26%20administration%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22426%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ESignatures%3A%20Harold%20Metro%20(Trustee)%20%26%20Jordan%20K.%20Hayes%20(CEO)%3C%2Ftext%3E%0A%0A%20%20%20%20%3C!--%20Watermark%20%2F%20Security%20Stamp%20--%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(410%2C%20640)%20rotate(-12)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22130%22%20height%3D%2248%22%20rx%3D%226%22%20fill%3D%22none%22%20stroke%3D%22%23059669%22%20stroke-width%3D%222.5%22%20stroke-dasharray%3D%226%2C2%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2220%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221.5%22%3EDOCUVAULT%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%3ESECURE%20OCR%20CLOUD%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fg%3E%0A%0A%20%20%20%20%3C!--%20Footer%20Bar%20%26%20Barcode%20simulation%20--%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22710%22%20x2%3D%22550%22%20y2%3D%22710%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22735%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20fill%3D%22%2394a3b8%22%3ECLOUD%20STORAGE%20REPLICA%3A%20ASIA-EAST%20%2F%20US-CENTRAL%20%C2%B7%20SHA-256%20VERIFIED%3C%2Ftext%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(50%2C%20745)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%224%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%227%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2212%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2216%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2219%22%20y%3D%220%22%20width%3D%224%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2229%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2233%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2238%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2243%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fsvg%3E",
+      "fullText": "COMMERCIAL PROPERTY LEASE AGREEMENT\n\nTHIS LEASE AGREEMENT is executed this 15th day of August, 2026, by and between:\nLANDLORD: Metro Real Estate Investment Trust, a Delaware Trust (\"Landlord\")\nTENANT: Nexus Innovations LLC, a California Limited Liability Company (\"Tenant\")\n\n1. PREMISES:\nLandlord leases to Tenant Suite 402, comprising approximately 3,420 rentable square feet, located in Metro Tower at 100 Main Boulevard, Los Angeles, CA.\n\n2. TERM:\nThe primary lease term shall commence on November 1, 2026 (\"Commencement Date\") and expire on October 31, 2029 (\"Expiration Date\"), for a duration of 36 months.\n\n3. RENT:\nTenant agrees to pay Base Rent of $8,750.00 per month, payable in advance on the first day of each calendar month without deduction or offset.\n\n4. SECURITY DEPOSIT:\nConcurrently with execution, Tenant deposits $17,500.00 as security for full performance.\n\n5. INSURANCE & INDEMNIFICATION:\nTenant shall maintain commercial general liability insurance of not less than $2,000,000 aggregate coverage naming Landlord as additional insured.\n\nEXECUTED AND SEALED:\nHarold Metro, Managing Trustee (Metro Real Estate Trust)\nJordan K. Hayes, Chief Executive Officer (Nexus Innovations LLC)",
+      "summary": "Binding 36-month commercial lease agreement for Suite 402 Metro Tower between Metro Real Estate Trust and Nexus Innovations LLC, with $8,750/mo base rent and $17,500 deposit.",
+      "extractedFields": [
+        {
+          "key": "Landlord",
+          "value": "Metro Real Estate Investment Trust"
+        },
+        {
+          "key": "Tenant",
+          "value": "Nexus Innovations LLC"
+        },
+        {
+          "key": "Premises",
+          "value": "Suite 402, 100 Main Blvd (3,420 sq ft)"
+        },
+        {
+          "key": "Commencement Date",
+          "value": "2026-11-01"
+        },
+        {
+          "key": "Expiration Date",
+          "value": "2029-10-31"
+        },
+        {
+          "key": "Base Monthly Rent",
+          "value": "$8,750.00 USD"
+        },
+        {
+          "key": "Security Deposit",
+          "value": "$17,500.00 USD"
+        },
+        {
+          "key": "Annual Escalation",
+          "value": "3.25%"
+        }
+      ],
+      "confidenceScore": 0.99,
+      "language": "English",
+      "isStarred": true,
+      "isArchived": false,
+      "cloudStorage": {
+        "provider": "DocuVault Encrypted Cloud Storage",
+        "bucket": "docuvault-secure-vault-east1",
+        "storageKey": "legal/2026/Metro_Tower_Lease_Executed.enc",
+        "encryptionCipher": "AES-256-GCM",
+        "checksumSHA256": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "syncStatus": "synced",
+        "replicaRegions": [
+          "asia-east1",
+          "us-central1"
+        ],
+        "version": 1
+      },
+      "auditTrail": [
+        {
+          "timestamp": "2026-08-15T11:14:00.000Z",
+          "action": "SCAN_INGESTED",
+          "details": "Multi-page contract scanned via high-speed feeder",
+          "operator": "Fjm.khi@gmail.com"
+        },
+        {
+          "timestamp": "2026-08-15T11:14:05.000Z",
+          "action": "OCR_EXTRACTED",
+          "details": "Full text OCR extraction completed with legal clause indexing",
+          "operator": "DocuVault OCR Engine"
+        },
+        {
+          "timestamp": "2026-08-15T11:14:06.000Z",
+          "action": "TAGS_APPLIED",
+          "details": "Auto-tagged with Real Estate, Commercial Lease, Contract",
+          "operator": "System Auto-Classifier"
+        }
+      ],
+      "userId": "user-001",
+      "currentVersion": 1,
+      "versions": [
+        {
+          "versionNumber": 1,
+          "scannedAt": "2026-08-15T11:14:00.000Z",
+          "changeNote": "Initial scan ingestion",
+          "fileName": "Metro_Tower_Commercial_Lease_Executed.pdf",
+          "fileSizeBytes": 512400,
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20800%22%20width%3D%22600%22%20height%3D%22800%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cfilter%20id%3D%22paper-shadow%22%20x%3D%22-5%25%22%20y%3D%22-5%25%22%20width%3D%22110%25%22%20height%3D%22110%25%22%3E%0A%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%228%22%20stdDeviation%3D%2212%22%20flood-color%3D%22%230f172a%22%20flood-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22stamp-grad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23059669%22%20stop-opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23047857%22%20stop-opacity%3D%220.9%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3C!--%20Paper%20Sheet%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22560%22%20height%3D%22760%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221.5%22%20filter%3D%22url(%23paper-shadow)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2222%22%20y%3D%2222%22%20width%3D%22556%22%20height%3D%22756%22%20rx%3D%223%22%20fill%3D%22%23fafafa%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%3C!--%20Top%20Header%20Bar%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2250%22%20y%3D%2245%22%20width%3D%22500%22%20height%3D%222%22%20fill%3D%22%230f172a%22%20opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2275%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22bold%22%20fill%3D%22%230f172a%22%3ECommercial%20Real%20Estate%20Lease%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2298%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22600%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221%22%3ECONTRACT%20%C2%B7%20VERIFIED%20ARCHIVE%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2275%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20fill%3D%22%2364748b%22%3EDATE%3A%202026-08-15%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2295%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b8%22%3EDOC%20ID%3A%20%2369581175%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22112%22%20x2%3D%22550%22%20y2%3D%22112%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%224%2C4%22%2F%3E%0A%0A%20%20%20%20%3C!--%20Content%20Lines%20--%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22140%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ECOMMERCIAL%20PROPERTY%20LEASE%20AGREEMENT%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22162%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EParties%3A%20Metro%20Real%20Estate%20Trust%20(Landlord)%20%26%20Nexus%20Innovations%20(Tenant)%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22184%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EPremises%3A%20Suite%20402%2C%20Metro%20Executive%20Tower%2C%20100%20Main%20Boulevard%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22206%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22228%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EARTICLE%201%3A%20TERM%20AND%20COMMENCEMENT%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22250%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ECommencement%20Date%3A%20November%201%2C%202026%20%7C%20Expiration%3A%20October%2031%2C%202029%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22272%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ETerm%20Duration%3A%20Thirty-Six%20(36)%20Consecutive%20Calendar%20Months%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22294%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EARTICLE%202%3A%20BASE%20RENT%20AND%20ESCALATION%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22316%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EBase%20Monthly%20Rent%3A%20%248%2C750.00%20USD%20(Payable%20on%201st%20of%20each%20month)%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22338%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ESecurity%20Deposit%3A%20%2417%2C500.00%20USD%20held%20in%20non-interest%20escrow%20account%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22360%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EAnnual%20Escalation%3A%203.25%25%20fixed%20per%20annum%20on%20anniversary%20date%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22382%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EARTICLE%203%3A%20PERMITTED%20USES%20%26%20OCCUPANCY%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22404%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EExclusive%20commercial%20office%20use%20for%20software%20development%20%26%20administration%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22426%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ESignatures%3A%20Harold%20Metro%20(Trustee)%20%26%20Jordan%20K.%20Hayes%20(CEO)%3C%2Ftext%3E%0A%0A%20%20%20%20%3C!--%20Watermark%20%2F%20Security%20Stamp%20--%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(410%2C%20640)%20rotate(-12)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22130%22%20height%3D%2248%22%20rx%3D%226%22%20fill%3D%22none%22%20stroke%3D%22%23059669%22%20stroke-width%3D%222.5%22%20stroke-dasharray%3D%226%2C2%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2220%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221.5%22%3EDOCUVAULT%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%3ESECURE%20OCR%20CLOUD%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fg%3E%0A%0A%20%20%20%20%3C!--%20Footer%20Bar%20%26%20Barcode%20simulation%20--%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22710%22%20x2%3D%22550%22%20y2%3D%22710%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22735%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20fill%3D%22%2394a3b8%22%3ECLOUD%20STORAGE%20REPLICA%3A%20ASIA-EAST%20%2F%20US-CENTRAL%20%C2%B7%20SHA-256%20VERIFIED%3C%2Ftext%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(50%2C%20745)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%224%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%227%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2212%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2216%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2219%22%20y%3D%220%22%20width%3D%224%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2229%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2233%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2238%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2243%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fsvg%3E",
+          "fullText": "COMMERCIAL PROPERTY LEASE AGREEMENT\n\nTHIS LEASE AGREEMENT is executed this 15th day of August, 2026, by and between:\nLANDLORD: Metro Real Estate Investment Trust, a Delaware Trust (\"Landlord\")\nTENANT: Nexus Innovations LLC, a California Limited Liability Company (\"Tenant\")\n\n1. PREMISES:\nLandlord leases to Tenant Suite 402, comprising approximately 3,420 rentable square feet, located in Metro Tower at 100 Main Boulevard, Los Angeles, CA.\n\n2. TERM:\nThe primary lease term shall commence on November 1, 2026 (\"Commencement Date\") and expire on October 31, 2029 (\"Expiration Date\"), for a duration of 36 months.\n\n3. RENT:\nTenant agrees to pay Base Rent of $8,750.00 per month, payable in advance on the first day of each calendar month without deduction or offset.\n\n4. SECURITY DEPOSIT:\nConcurrently with execution, Tenant deposits $17,500.00 as security for full performance.\n\n5. INSURANCE & INDEMNIFICATION:\nTenant shall maintain commercial general liability insurance of not less than $2,000,000 aggregate coverage naming Landlord as additional insured.\n\nEXECUTED AND SEALED:\nHarold Metro, Managing Trustee (Metro Real Estate Trust)\nJordan K. Hayes, Chief Executive Officer (Nexus Innovations LLC)",
+          "summary": "Binding 36-month commercial lease agreement for Suite 402 Metro Tower between Metro Real Estate Trust and Nexus Innovations LLC, with $8,750/mo base rent and $17,500 deposit.",
+          "extractedFields": [
+            {
+              "key": "Landlord",
+              "value": "Metro Real Estate Investment Trust"
+            },
+            {
+              "key": "Tenant",
+              "value": "Nexus Innovations LLC"
+            },
+            {
+              "key": "Premises",
+              "value": "Suite 402, 100 Main Blvd (3,420 sq ft)"
+            },
+            {
+              "key": "Commencement Date",
+              "value": "2026-11-01"
+            },
+            {
+              "key": "Expiration Date",
+              "value": "2029-10-31"
+            },
+            {
+              "key": "Base Monthly Rent",
+              "value": "$8,750.00 USD"
+            },
+            {
+              "key": "Security Deposit",
+              "value": "$17,500.00 USD"
+            },
+            {
+              "key": "Annual Escalation",
+              "value": "3.25%"
+            }
+          ],
+          "confidenceScore": 0.99,
+          "checksumSHA256": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+          "operator": "Jordan Hayes"
+        }
+      ]
+    },
+    {
+      "id": "doc-003",
+      "title": "Pacific Health Diagnostics - Comprehensive Metabolic Panel",
+      "fileName": "Lab_Report_Metabolic_Panel_Aug2026.pdf",
+      "documentType": "Medical Record",
+      "folderId": "folder-med",
+      "folderName": "Medical & Health",
+      "tags": [
+        "Health",
+        "Lab Results",
+        "Dr. Vance",
+        "Confidential",
+        "Annual Checkup"
+      ],
+      "scannedAt": "2026-08-14T09:20:15.000Z",
+      "updatedAt": "2026-08-14T09:20:15.000Z",
+      "fileSizeBytes": 310500,
+      "mimeType": "image/jpeg",
+      "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20800%22%20width%3D%22600%22%20height%3D%22800%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cfilter%20id%3D%22paper-shadow%22%20x%3D%22-5%25%22%20y%3D%22-5%25%22%20width%3D%22110%25%22%20height%3D%22110%25%22%3E%0A%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%228%22%20stdDeviation%3D%2212%22%20flood-color%3D%22%230f172a%22%20flood-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22stamp-grad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23059669%22%20stop-opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23047857%22%20stop-opacity%3D%220.9%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3C!--%20Paper%20Sheet%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22560%22%20height%3D%22760%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221.5%22%20filter%3D%22url(%23paper-shadow)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2222%22%20y%3D%2222%22%20width%3D%22556%22%20height%3D%22756%22%20rx%3D%223%22%20fill%3D%22%23fafafa%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%3C!--%20Top%20Header%20Bar%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2250%22%20y%3D%2245%22%20width%3D%22500%22%20height%3D%222%22%20fill%3D%22%230f172a%22%20opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2275%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22bold%22%20fill%3D%22%230f172a%22%3EPacific%20Health%20Diagnostics%20-%20Lab%20Panel%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2298%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22600%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221%22%3EMEDICAL%20RECORD%20%C2%B7%20VERIFIED%20ARCHIVE%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2275%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20fill%3D%22%2364748b%22%3EDATE%3A%202026-08-14%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2295%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b8%22%3EDOC%20ID%3A%20%237009E77A%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22112%22%20x2%3D%22550%22%20y2%3D%22112%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%224%2C4%22%2F%3E%0A%0A%20%20%20%20%3C!--%20Content%20Lines%20--%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22140%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EPACIFIC%20HEALTH%20CLINICAL%20DIAGNOSTICS%20%26%20PATHOLOGY%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22162%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EPatient%3A%20Jordan%20K.%20Hayes%20%7C%20DOB%3A%2005%2F18%2F1988%20%7C%20MRN%3A%20%23PHD-88201%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22184%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EOrdering%20Physician%3A%20Dr.%20Sarah%20Vance%2C%20MD%20(Internal%20Medicine)%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22206%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22228%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ECOMPREHENSIVE%20METABOLIC%20PANEL%20(CMP-14)%3A%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22250%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EGlucose%20(Fasting)%3A%20.........%2092%20mg%2FdL%20%20%20%5BReference%3A%2070%20-%2099%20mg%2FdL%5D%20NORMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22272%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EBUN%20(Blood%20Urea%20Nitrogen)%3A%20..%2014%20mg%2FdL%20%20%20%5BReference%3A%207%20-%2020%20mg%2FdL%5D%20%20NORMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22294%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ECreatinine%20(Serum)%3A%20........%200.88%20mg%2FdL%20%5BReference%3A%200.7%20-%201.3%20mg%2FdL%5D%20NORMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22316%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EeGFR%3A%20.......................%20%26gt%3B90%20mL%2Fmin%20%5BReference%3A%20%26gt%3B60%20mL%2Fmin%5D%20%20%20%20OPTIMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22338%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ESodium%3A%20.....................%20140%20mmol%2FL%20%5BReference%3A%20136%20-%20145%5D%20%20%20%20%20NORMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22360%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EPotassium%3A%20..................%204.3%20mmol%2FL%20%5BReference%3A%203.5%20-%205.1%5D%20%20%20%20%20NORMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22382%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ETotal%20Cholesterol%3A%20.........%20178%20mg%2FdL%20%20%5BReference%3A%20%26lt%3B200%20mg%2FdL%5D%20%20%20%20OPTIMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22404%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EHDL%20Cholesterol%3A%20............%2062%20mg%2FdL%20%20%20%5BReference%3A%20%26gt%3B40%20mg%2FdL%5D%20%20%20%20%20EXCELLENT%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22426%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ELDL%20Calculated%3A%20.............%2098%20mg%2FdL%20%20%20%5BReference%3A%20%26lt%3B100%20mg%2FdL%5D%20%20%20%20OPTIMAL%3C%2Ftext%3E%0A%0A%20%20%20%20%3C!--%20Watermark%20%2F%20Security%20Stamp%20--%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(410%2C%20640)%20rotate(-12)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22130%22%20height%3D%2248%22%20rx%3D%226%22%20fill%3D%22none%22%20stroke%3D%22%23059669%22%20stroke-width%3D%222.5%22%20stroke-dasharray%3D%226%2C2%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2220%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221.5%22%3EDOCUVAULT%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%3ESECURE%20OCR%20CLOUD%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fg%3E%0A%0A%20%20%20%20%3C!--%20Footer%20Bar%20%26%20Barcode%20simulation%20--%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22710%22%20x2%3D%22550%22%20y2%3D%22710%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22735%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20fill%3D%22%2394a3b8%22%3ECLOUD%20STORAGE%20REPLICA%3A%20ASIA-EAST%20%2F%20US-CENTRAL%20%C2%B7%20SHA-256%20VERIFIED%3C%2Ftext%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(50%2C%20745)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%224%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%227%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2212%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2216%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2219%22%20y%3D%220%22%20width%3D%224%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2229%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2233%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2238%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2243%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fsvg%3E",
+      "fullText": "PACIFIC HEALTH CLINICAL DIAGNOSTICS & PATHOLOGY\n4200 Health Sciences Plaza, Suite 300, San Diego, CA 92122\nCLIA License: 05D9981240 | Lab Director: Dr. Keith Morrison, MD\n\nPATIENT LABORATORY REPORT - CONFIDENTIAL MEDICAL RECORD\nPatient Name: Jordan K. Hayes\nDate of Birth: May 18, 1988 (Age 38)\nMedical Record Number (MRN): PHD-88201\nSpecimen Collection: August 14, 2026 at 07:45 AM\nReport Date: August 14, 2026 at 09:15 AM\nOrdering Provider: Dr. Sarah Vance, MD (Pacific Internal Medicine)\n\nTEST NAME | RESULT | REFERENCE RANGE | FLAG\nGlucose, Fasting: 92 mg/dL (70 - 99 mg/dL) NORMAL\nBUN: 14 mg/dL (7 - 20 mg/dL) NORMAL\nCreatinine: 0.88 mg/dL (0.70 - 1.30 mg/dL) NORMAL\neGFR: >90 mL/min/1.73m2 (>60 mL/min) OPTIMAL\nSodium: 140 mmol/L (136 - 145 mmol/L) NORMAL\nPotassium: 4.3 mmol/L (3.5 - 5.1 mmol/L) NORMAL\nChloride: 102 mmol/L (98 - 107 mmol/L) NORMAL\nCarbon Dioxide: 25 mmol/L (22 - 29 mmol/L) NORMAL\nCalcium: 9.4 mg/dL (8.6 - 10.2 mg/dL) NORMAL\nProtein, Total: 7.1 g/dL (6.3 - 8.2 g/dL) NORMAL\nAlbumin: 4.6 g/dL (3.8 - 5.0 g/dL) NORMAL\nBilirubin, Total: 0.6 mg/dL (0.2 - 1.2 mg/dL) NORMAL\nAlkaline Phosphatase: 68 U/L (44 - 147 U/L) NORMAL\nAST (SGOT): 22 U/L (10 - 40 U/L) NORMAL\nALT (SGPT): 24 U/L (9 - 46 U/L) NORMAL\n\nLIPID PANEL:\nTotal Cholesterol: 178 mg/dL (<200 mg/dL) OPTIMAL\nHDL Cholesterol: 62 mg/dL (>40 mg/dL) EXCELLENT\nTriglycerides: 89 mg/dL (<150 mg/dL) OPTIMAL\nLDL Calculated: 98 mg/dL (<100 mg/dL) OPTIMAL\n\nIMPRESSION & CLINICAL NOTE:\nAll metabolic, kidney, and liver markers are within normal physiological parameters. Lipid profile is optimal with high cardioprotective HDL level. Continue balanced nutrition and exercise routine.",
+      "summary": "Clinical lab panel results for Jordan K. Hayes ordered by Dr. Sarah Vance showing all 14 metabolic markers and lipid numbers within optimal reference ranges.",
+      "extractedFields": [
+        {
+          "key": "Patient Name",
+          "value": "Jordan K. Hayes"
+        },
+        {
+          "key": "Physician",
+          "value": "Dr. Sarah Vance, MD"
+        },
+        {
+          "key": "MRN Number",
+          "value": "PHD-88201"
+        },
+        {
+          "key": "Collection Date",
+          "value": "2026-08-14"
+        },
+        {
+          "key": "Fasting Glucose",
+          "value": "92 mg/dL (Normal)"
+        },
+        {
+          "key": "Total Cholesterol",
+          "value": "178 mg/dL (Optimal)"
+        },
+        {
+          "key": "HDL Cholesterol",
+          "value": "62 mg/dL"
+        },
+        {
+          "key": "LDL Cholesterol",
+          "value": "98 mg/dL"
+        }
+      ],
+      "confidenceScore": 0.99,
+      "language": "English",
+      "isStarred": false,
+      "isArchived": false,
+      "cloudStorage": {
+        "provider": "DocuVault Encrypted Cloud Storage",
+        "bucket": "docuvault-secure-vault-east1",
+        "storageKey": "medical/2026/Lab_Report_Metabolic_Aug2026.enc",
+        "encryptionCipher": "AES-256-GCM",
+        "checksumSHA256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+        "syncStatus": "synced",
+        "replicaRegions": [
+          "asia-east1",
+          "us-central1"
+        ],
+        "version": 1
+      },
+      "auditTrail": [
+        {
+          "timestamp": "2026-08-14T09:20:15.000Z",
+          "action": "SCAN_INGESTED",
+          "details": "Clinic document scanned directly from provider portal",
+          "operator": "Fjm.khi@gmail.com"
+        },
+        {
+          "timestamp": "2026-08-14T09:20:18.000Z",
+          "action": "HIPAA_SECURITY_TAG",
+          "details": "Encrypted storage lock applied for confidential health data",
+          "operator": "DocuVault Security Engine"
+        }
+      ],
+      "userId": "user-001",
+      "currentVersion": 1,
+      "versions": [
+        {
+          "versionNumber": 1,
+          "scannedAt": "2026-08-14T09:20:15.000Z",
+          "changeNote": "Initial scan ingestion",
+          "fileName": "Lab_Report_Metabolic_Panel_Aug2026.pdf",
+          "fileSizeBytes": 310500,
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20800%22%20width%3D%22600%22%20height%3D%22800%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cfilter%20id%3D%22paper-shadow%22%20x%3D%22-5%25%22%20y%3D%22-5%25%22%20width%3D%22110%25%22%20height%3D%22110%25%22%3E%0A%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%228%22%20stdDeviation%3D%2212%22%20flood-color%3D%22%230f172a%22%20flood-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22stamp-grad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23059669%22%20stop-opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23047857%22%20stop-opacity%3D%220.9%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3C!--%20Paper%20Sheet%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22560%22%20height%3D%22760%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221.5%22%20filter%3D%22url(%23paper-shadow)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2222%22%20y%3D%2222%22%20width%3D%22556%22%20height%3D%22756%22%20rx%3D%223%22%20fill%3D%22%23fafafa%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%3C!--%20Top%20Header%20Bar%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2250%22%20y%3D%2245%22%20width%3D%22500%22%20height%3D%222%22%20fill%3D%22%230f172a%22%20opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2275%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22bold%22%20fill%3D%22%230f172a%22%3EPacific%20Health%20Diagnostics%20-%20Lab%20Panel%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2298%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22600%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221%22%3EMEDICAL%20RECORD%20%C2%B7%20VERIFIED%20ARCHIVE%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2275%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20fill%3D%22%2364748b%22%3EDATE%3A%202026-08-14%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2295%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b8%22%3EDOC%20ID%3A%20%237009E77A%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22112%22%20x2%3D%22550%22%20y2%3D%22112%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%224%2C4%22%2F%3E%0A%0A%20%20%20%20%3C!--%20Content%20Lines%20--%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22140%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EPACIFIC%20HEALTH%20CLINICAL%20DIAGNOSTICS%20%26%20PATHOLOGY%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22162%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EPatient%3A%20Jordan%20K.%20Hayes%20%7C%20DOB%3A%2005%2F18%2F1988%20%7C%20MRN%3A%20%23PHD-88201%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22184%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EOrdering%20Physician%3A%20Dr.%20Sarah%20Vance%2C%20MD%20(Internal%20Medicine)%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22206%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22228%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ECOMPREHENSIVE%20METABOLIC%20PANEL%20(CMP-14)%3A%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22250%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EGlucose%20(Fasting)%3A%20.........%2092%20mg%2FdL%20%20%20%5BReference%3A%2070%20-%2099%20mg%2FdL%5D%20NORMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22272%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EBUN%20(Blood%20Urea%20Nitrogen)%3A%20..%2014%20mg%2FdL%20%20%20%5BReference%3A%207%20-%2020%20mg%2FdL%5D%20%20NORMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22294%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ECreatinine%20(Serum)%3A%20........%200.88%20mg%2FdL%20%5BReference%3A%200.7%20-%201.3%20mg%2FdL%5D%20NORMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22316%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EeGFR%3A%20.......................%20%26gt%3B90%20mL%2Fmin%20%5BReference%3A%20%26gt%3B60%20mL%2Fmin%5D%20%20%20%20OPTIMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22338%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ESodium%3A%20.....................%20140%20mmol%2FL%20%5BReference%3A%20136%20-%20145%5D%20%20%20%20%20NORMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22360%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EPotassium%3A%20..................%204.3%20mmol%2FL%20%5BReference%3A%203.5%20-%205.1%5D%20%20%20%20%20NORMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22382%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ETotal%20Cholesterol%3A%20.........%20178%20mg%2FdL%20%20%5BReference%3A%20%26lt%3B200%20mg%2FdL%5D%20%20%20%20OPTIMAL%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22404%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EHDL%20Cholesterol%3A%20............%2062%20mg%2FdL%20%20%20%5BReference%3A%20%26gt%3B40%20mg%2FdL%5D%20%20%20%20%20EXCELLENT%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22426%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ELDL%20Calculated%3A%20.............%2098%20mg%2FdL%20%20%20%5BReference%3A%20%26lt%3B100%20mg%2FdL%5D%20%20%20%20OPTIMAL%3C%2Ftext%3E%0A%0A%20%20%20%20%3C!--%20Watermark%20%2F%20Security%20Stamp%20--%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(410%2C%20640)%20rotate(-12)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22130%22%20height%3D%2248%22%20rx%3D%226%22%20fill%3D%22none%22%20stroke%3D%22%23059669%22%20stroke-width%3D%222.5%22%20stroke-dasharray%3D%226%2C2%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2220%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221.5%22%3EDOCUVAULT%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%3ESECURE%20OCR%20CLOUD%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fg%3E%0A%0A%20%20%20%20%3C!--%20Footer%20Bar%20%26%20Barcode%20simulation%20--%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22710%22%20x2%3D%22550%22%20y2%3D%22710%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22735%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20fill%3D%22%2394a3b8%22%3ECLOUD%20STORAGE%20REPLICA%3A%20ASIA-EAST%20%2F%20US-CENTRAL%20%C2%B7%20SHA-256%20VERIFIED%3C%2Ftext%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(50%2C%20745)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%224%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%227%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2212%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2216%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2219%22%20y%3D%220%22%20width%3D%224%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2229%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2233%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2238%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2243%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fsvg%3E",
+          "fullText": "PACIFIC HEALTH CLINICAL DIAGNOSTICS & PATHOLOGY\n4200 Health Sciences Plaza, Suite 300, San Diego, CA 92122\nCLIA License: 05D9981240 | Lab Director: Dr. Keith Morrison, MD\n\nPATIENT LABORATORY REPORT - CONFIDENTIAL MEDICAL RECORD\nPatient Name: Jordan K. Hayes\nDate of Birth: May 18, 1988 (Age 38)\nMedical Record Number (MRN): PHD-88201\nSpecimen Collection: August 14, 2026 at 07:45 AM\nReport Date: August 14, 2026 at 09:15 AM\nOrdering Provider: Dr. Sarah Vance, MD (Pacific Internal Medicine)\n\nTEST NAME | RESULT | REFERENCE RANGE | FLAG\nGlucose, Fasting: 92 mg/dL (70 - 99 mg/dL) NORMAL\nBUN: 14 mg/dL (7 - 20 mg/dL) NORMAL\nCreatinine: 0.88 mg/dL (0.70 - 1.30 mg/dL) NORMAL\neGFR: >90 mL/min/1.73m2 (>60 mL/min) OPTIMAL\nSodium: 140 mmol/L (136 - 145 mmol/L) NORMAL\nPotassium: 4.3 mmol/L (3.5 - 5.1 mmol/L) NORMAL\nChloride: 102 mmol/L (98 - 107 mmol/L) NORMAL\nCarbon Dioxide: 25 mmol/L (22 - 29 mmol/L) NORMAL\nCalcium: 9.4 mg/dL (8.6 - 10.2 mg/dL) NORMAL\nProtein, Total: 7.1 g/dL (6.3 - 8.2 g/dL) NORMAL\nAlbumin: 4.6 g/dL (3.8 - 5.0 g/dL) NORMAL\nBilirubin, Total: 0.6 mg/dL (0.2 - 1.2 mg/dL) NORMAL\nAlkaline Phosphatase: 68 U/L (44 - 147 U/L) NORMAL\nAST (SGOT): 22 U/L (10 - 40 U/L) NORMAL\nALT (SGPT): 24 U/L (9 - 46 U/L) NORMAL\n\nLIPID PANEL:\nTotal Cholesterol: 178 mg/dL (<200 mg/dL) OPTIMAL\nHDL Cholesterol: 62 mg/dL (>40 mg/dL) EXCELLENT\nTriglycerides: 89 mg/dL (<150 mg/dL) OPTIMAL\nLDL Calculated: 98 mg/dL (<100 mg/dL) OPTIMAL\n\nIMPRESSION & CLINICAL NOTE:\nAll metabolic, kidney, and liver markers are within normal physiological parameters. Lipid profile is optimal with high cardioprotective HDL level. Continue balanced nutrition and exercise routine.",
+          "summary": "Clinical lab panel results for Jordan K. Hayes ordered by Dr. Sarah Vance showing all 14 metabolic markers and lipid numbers within optimal reference ranges.",
+          "extractedFields": [
+            {
+              "key": "Patient Name",
+              "value": "Jordan K. Hayes"
+            },
+            {
+              "key": "Physician",
+              "value": "Dr. Sarah Vance, MD"
+            },
+            {
+              "key": "MRN Number",
+              "value": "PHD-88201"
+            },
+            {
+              "key": "Collection Date",
+              "value": "2026-08-14"
+            },
+            {
+              "key": "Fasting Glucose",
+              "value": "92 mg/dL (Normal)"
+            },
+            {
+              "key": "Total Cholesterol",
+              "value": "178 mg/dL (Optimal)"
+            },
+            {
+              "key": "HDL Cholesterol",
+              "value": "62 mg/dL"
+            },
+            {
+              "key": "LDL Cholesterol",
+              "value": "98 mg/dL"
+            }
+          ],
+          "confidenceScore": 0.99,
+          "checksumSHA256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+          "operator": "Jordan Hayes"
+        }
+      ]
+    },
+    {
+      "id": "doc-004",
+      "title": "The Grand Horizon Bistro - Executive Client Dinner Receipt",
+      "fileName": "Receipt_GrandHorizon_20261004.jpg",
+      "documentType": "Receipt",
+      "folderId": "folder-rec",
+      "folderName": "Receipts & Expenses",
+      "tags": [
+        "Receipt",
+        "Dining",
+        "Client Meeting",
+        "Reimbursable",
+        "Mastercard"
+      ],
+      "scannedAt": "2026-10-04T21:05:40.000Z",
+      "updatedAt": "2026-10-04T21:05:40.000Z",
+      "fileSizeBytes": 182300,
+      "mimeType": "image/jpeg",
+      "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20800%22%20width%3D%22600%22%20height%3D%22800%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cfilter%20id%3D%22paper-shadow%22%20x%3D%22-5%25%22%20y%3D%22-5%25%22%20width%3D%22110%25%22%20height%3D%22110%25%22%3E%0A%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%228%22%20stdDeviation%3D%2212%22%20flood-color%3D%22%230f172a%22%20flood-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22stamp-grad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23059669%22%20stop-opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23047857%22%20stop-opacity%3D%220.9%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3C!--%20Paper%20Sheet%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22560%22%20height%3D%22760%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221.5%22%20filter%3D%22url(%23paper-shadow)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2222%22%20y%3D%2222%22%20width%3D%22556%22%20height%3D%22756%22%20rx%3D%223%22%20fill%3D%22%23fafafa%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%3C!--%20Top%20Header%20Bar%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2250%22%20y%3D%2245%22%20width%3D%22500%22%20height%3D%222%22%20fill%3D%22%230f172a%22%20opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2275%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22bold%22%20fill%3D%22%230f172a%22%3EThe%20Grand%20Horizon%20Bistro%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2298%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22600%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221%22%3ERECEIPT%20%C2%B7%20VERIFIED%20ARCHIVE%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2275%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20fill%3D%22%2364748b%22%3EDATE%3A%202026-10-04%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2295%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b8%22%3EDOC%20ID%3A%20%2357CF0761%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22112%22%20x2%3D%22550%22%20y2%3D%22112%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%224%2C4%22%2F%3E%0A%0A%20%20%20%20%3C!--%20Content%20Lines%20--%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22140%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ETHE%20GRAND%20HORIZON%20BISTRO%20%26%20LOUNGE%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22162%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ETable%3A%2014%20%7C%20Server%3A%20Chloe%20%7C%20Guests%3A%203%20%7C%20Trans%20%23%3A%20892019%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22184%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EDate%3A%2010%2F04%2F2026%20%208%3A41%20PM%20%7C%20POS%20Terminal%3A%20%2304%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22206%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22228%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E1x%20Artisan%20Sourdough%20%26%20Truffle%20Butter%20.......%20%24%2014.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22250%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E2x%20Wild%20Pacific%20King%20Salmon%20.................%20%24%2078.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22272%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E1x%20Dry-Aged%20Ribeye%20Steak%2014oz%20..............%20%24%2068.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22294%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E1x%20Roasted%20Organic%20Heirloom%20Carrots%20.........%20%24%2016.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22316%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E1x%20Sonoma%20Valley%20Pinot%20Noir%20(Bottle)%20........%20%24%2095.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22338%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E2x%20Espresso%20Single%20Origin%20..................%20%24%2012.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22360%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E1x%20Tahitian%20Vanilla%20Bean%20Panna%20Cotta%20........%20%24%2015.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22382%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22404%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EFOOD%20SUBTOTAL%3A%20%24201.00%20%7C%20BEV%20SUBTOTAL%3A%20%24107.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22426%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ESALES%20TAX%20(9.5%25)%3A%20%2429.26%3C%2Ftext%3E%0A%0A%20%20%20%20%3C!--%20Watermark%20%2F%20Security%20Stamp%20--%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(410%2C%20640)%20rotate(-12)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22130%22%20height%3D%2248%22%20rx%3D%226%22%20fill%3D%22none%22%20stroke%3D%22%23059669%22%20stroke-width%3D%222.5%22%20stroke-dasharray%3D%226%2C2%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2220%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221.5%22%3EDOCUVAULT%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%3ESECURE%20OCR%20CLOUD%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fg%3E%0A%0A%20%20%20%20%3C!--%20Footer%20Bar%20%26%20Barcode%20simulation%20--%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22710%22%20x2%3D%22550%22%20y2%3D%22710%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22735%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20fill%3D%22%2394a3b8%22%3ECLOUD%20STORAGE%20REPLICA%3A%20ASIA-EAST%20%2F%20US-CENTRAL%20%C2%B7%20SHA-256%20VERIFIED%3C%2Ftext%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(50%2C%20745)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%224%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%227%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2212%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2216%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2219%22%20y%3D%220%22%20width%3D%224%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2229%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2233%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2238%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2243%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fsvg%3E",
+      "fullText": "THE GRAND HORIZON BISTRO & LOUNGE\n777 Sunset Blvd, West Hollywood, CA 90069\nTel: (310) 555-0199 | merchant@grandhorizonbistro.com\n\nRECEIPT\nDate: October 4, 2026  8:41 PM\nServer: Chloe D.\nTable: 14 (Dining Room)\nTransaction ID: TXN-8920198\nPayment Method: Corporate Mastercard ending in 4912\nAuthorization Code: 088492\n\nITEMS:\n1  Artisan Sourdough & Truffle Butter - $14.00\n2  Wild Pacific King Salmon - $78.00\n1  Dry-Aged Prime Ribeye 14oz - $68.00\n1  Roasted Heirloom Carrots & Honey - $16.00\n1  Sonoma Valley Pinot Noir 2022 - $95.00\n2  Single Origin Espresso - $12.00\n1  Vanilla Bean Panna Cotta - $15.00\n\nSubtotal: $298.00\nBeverage Tax / Sales Tax (9.5%): $28.31\nGratuity (20%): $59.60\nTOTAL CHARGE: $385.91 USD\n\nCard: MASTERCARD PREMIER BUSINESS\nAccount: ************4912\nAID: A0000000041010 | Contactless Chip Read\nTHANK YOU FOR DINING WITH US!",
+      "summary": "Executive client dinner receipt from The Grand Horizon Bistro totaling $385.91 on October 4, 2026, charged to Corporate Mastercard ending in 4912.",
+      "extractedFields": [
+        {
+          "key": "Merchant",
+          "value": "The Grand Horizon Bistro & Lounge"
+        },
+        {
+          "key": "Date",
+          "value": "2026-10-04"
+        },
+        {
+          "key": "Transaction ID",
+          "value": "TXN-8920198"
+        },
+        {
+          "key": "Payment Method",
+          "value": "Mastercard (*4912)"
+        },
+        {
+          "key": "Subtotal",
+          "value": "$298.00"
+        },
+        {
+          "key": "Sales Tax (9.5%)",
+          "value": "$28.31"
+        },
+        {
+          "key": "Gratuity",
+          "value": "$59.60"
+        },
+        {
+          "key": "Total Amount",
+          "value": "$385.91 USD"
+        }
+      ],
+      "confidenceScore": 0.99,
+      "language": "English",
+      "isStarred": false,
+      "isArchived": false,
+      "cloudStorage": {
+        "provider": "DocuVault Encrypted Cloud Storage",
+        "bucket": "docuvault-secure-vault-east1",
+        "storageKey": "receipts/2026/GrandHorizon_Receipt_1004.enc",
+        "encryptionCipher": "AES-256-GCM",
+        "checksumSHA256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+        "syncStatus": "synced",
+        "replicaRegions": [
+          "asia-east1",
+          "us-central1"
+        ],
+        "version": 1
+      },
+      "auditTrail": [
+        {
+          "timestamp": "2026-10-04T21:05:40.000Z",
+          "action": "SCAN_INGESTED",
+          "details": "Receipt scanned using mobile camera mode",
+          "operator": "Fjm.khi@gmail.com"
+        },
+        {
+          "timestamp": "2026-10-04T21:05:42.000Z",
+          "action": "OCR_EXTRACTED",
+          "details": "Parsed itemized amounts and card digits",
+          "operator": "DocuVault OCR Engine"
+        }
+      ],
+      "userId": "user-001",
+      "currentVersion": 1,
+      "versions": [
+        {
+          "versionNumber": 1,
+          "scannedAt": "2026-10-04T21:05:40.000Z",
+          "changeNote": "Initial scan ingestion",
+          "fileName": "Receipt_GrandHorizon_20261004.jpg",
+          "fileSizeBytes": 182300,
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20800%22%20width%3D%22600%22%20height%3D%22800%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cfilter%20id%3D%22paper-shadow%22%20x%3D%22-5%25%22%20y%3D%22-5%25%22%20width%3D%22110%25%22%20height%3D%22110%25%22%3E%0A%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%228%22%20stdDeviation%3D%2212%22%20flood-color%3D%22%230f172a%22%20flood-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22stamp-grad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23059669%22%20stop-opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23047857%22%20stop-opacity%3D%220.9%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3C!--%20Paper%20Sheet%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22560%22%20height%3D%22760%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221.5%22%20filter%3D%22url(%23paper-shadow)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2222%22%20y%3D%2222%22%20width%3D%22556%22%20height%3D%22756%22%20rx%3D%223%22%20fill%3D%22%23fafafa%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%3C!--%20Top%20Header%20Bar%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2250%22%20y%3D%2245%22%20width%3D%22500%22%20height%3D%222%22%20fill%3D%22%230f172a%22%20opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2275%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22bold%22%20fill%3D%22%230f172a%22%3EThe%20Grand%20Horizon%20Bistro%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2298%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22600%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221%22%3ERECEIPT%20%C2%B7%20VERIFIED%20ARCHIVE%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2275%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20fill%3D%22%2364748b%22%3EDATE%3A%202026-10-04%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2295%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b8%22%3EDOC%20ID%3A%20%2357CF0761%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22112%22%20x2%3D%22550%22%20y2%3D%22112%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%224%2C4%22%2F%3E%0A%0A%20%20%20%20%3C!--%20Content%20Lines%20--%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22140%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ETHE%20GRAND%20HORIZON%20BISTRO%20%26%20LOUNGE%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22162%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ETable%3A%2014%20%7C%20Server%3A%20Chloe%20%7C%20Guests%3A%203%20%7C%20Trans%20%23%3A%20892019%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22184%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EDate%3A%2010%2F04%2F2026%20%208%3A41%20PM%20%7C%20POS%20Terminal%3A%20%2304%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22206%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22228%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E1x%20Artisan%20Sourdough%20%26%20Truffle%20Butter%20.......%20%24%2014.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22250%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E2x%20Wild%20Pacific%20King%20Salmon%20.................%20%24%2078.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22272%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E1x%20Dry-Aged%20Ribeye%20Steak%2014oz%20..............%20%24%2068.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22294%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E1x%20Roasted%20Organic%20Heirloom%20Carrots%20.........%20%24%2016.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22316%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E1x%20Sonoma%20Valley%20Pinot%20Noir%20(Bottle)%20........%20%24%2095.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22338%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E2x%20Espresso%20Single%20Origin%20..................%20%24%2012.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22360%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3E1x%20Tahitian%20Vanilla%20Bean%20Panna%20Cotta%20........%20%24%2015.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22382%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22404%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EFOOD%20SUBTOTAL%3A%20%24201.00%20%7C%20BEV%20SUBTOTAL%3A%20%24107.00%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22426%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ESALES%20TAX%20(9.5%25)%3A%20%2429.26%3C%2Ftext%3E%0A%0A%20%20%20%20%3C!--%20Watermark%20%2F%20Security%20Stamp%20--%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(410%2C%20640)%20rotate(-12)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22130%22%20height%3D%2248%22%20rx%3D%226%22%20fill%3D%22none%22%20stroke%3D%22%23059669%22%20stroke-width%3D%222.5%22%20stroke-dasharray%3D%226%2C2%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2220%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221.5%22%3EDOCUVAULT%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%3ESECURE%20OCR%20CLOUD%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fg%3E%0A%0A%20%20%20%20%3C!--%20Footer%20Bar%20%26%20Barcode%20simulation%20--%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22710%22%20x2%3D%22550%22%20y2%3D%22710%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22735%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20fill%3D%22%2394a3b8%22%3ECLOUD%20STORAGE%20REPLICA%3A%20ASIA-EAST%20%2F%20US-CENTRAL%20%C2%B7%20SHA-256%20VERIFIED%3C%2Ftext%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(50%2C%20745)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%224%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%227%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2212%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2216%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2219%22%20y%3D%220%22%20width%3D%224%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2229%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2233%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2238%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2243%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fsvg%3E",
+          "fullText": "THE GRAND HORIZON BISTRO & LOUNGE\n777 Sunset Blvd, West Hollywood, CA 90069\nTel: (310) 555-0199 | merchant@grandhorizonbistro.com\n\nRECEIPT\nDate: October 4, 2026  8:41 PM\nServer: Chloe D.\nTable: 14 (Dining Room)\nTransaction ID: TXN-8920198\nPayment Method: Corporate Mastercard ending in 4912\nAuthorization Code: 088492\n\nITEMS:\n1  Artisan Sourdough & Truffle Butter - $14.00\n2  Wild Pacific King Salmon - $78.00\n1  Dry-Aged Prime Ribeye 14oz - $68.00\n1  Roasted Heirloom Carrots & Honey - $16.00\n1  Sonoma Valley Pinot Noir 2022 - $95.00\n2  Single Origin Espresso - $12.00\n1  Vanilla Bean Panna Cotta - $15.00\n\nSubtotal: $298.00\nBeverage Tax / Sales Tax (9.5%): $28.31\nGratuity (20%): $59.60\nTOTAL CHARGE: $385.91 USD\n\nCard: MASTERCARD PREMIER BUSINESS\nAccount: ************4912\nAID: A0000000041010 | Contactless Chip Read\nTHANK YOU FOR DINING WITH US!",
+          "summary": "Executive client dinner receipt from The Grand Horizon Bistro totaling $385.91 on October 4, 2026, charged to Corporate Mastercard ending in 4912.",
+          "extractedFields": [
+            {
+              "key": "Merchant",
+              "value": "The Grand Horizon Bistro & Lounge"
+            },
+            {
+              "key": "Date",
+              "value": "2026-10-04"
+            },
+            {
+              "key": "Transaction ID",
+              "value": "TXN-8920198"
+            },
+            {
+              "key": "Payment Method",
+              "value": "Mastercard (*4912)"
+            },
+            {
+              "key": "Subtotal",
+              "value": "$298.00"
+            },
+            {
+              "key": "Sales Tax (9.5%)",
+              "value": "$28.31"
+            },
+            {
+              "key": "Gratuity",
+              "value": "$59.60"
+            },
+            {
+              "key": "Total Amount",
+              "value": "$385.91 USD"
+            }
+          ],
+          "confidenceScore": 0.99,
+          "checksumSHA256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+          "operator": "Jordan Hayes"
+        }
+      ]
+    },
+    {
+      "id": "doc-005",
+      "title": "State Department of Transportation - Vehicle Registration Certificate",
+      "fileName": "DMV_Vehicle_Registration_2026.pdf",
+      "documentType": "Official Document",
+      "folderId": "folder-per",
+      "folderName": "Personal Records",
+      "tags": [
+        "Government",
+        "Vehicle Title",
+        "Registration",
+        "Tesla Model Y",
+        "Official"
+      ],
+      "scannedAt": "2026-02-12T16:08:22.000Z",
+      "updatedAt": "2026-02-12T16:08:22.000Z",
+      "fileSizeBytes": 280900,
+      "mimeType": "image/jpeg",
+      "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20800%22%20width%3D%22600%22%20height%3D%22800%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cfilter%20id%3D%22paper-shadow%22%20x%3D%22-5%25%22%20y%3D%22-5%25%22%20width%3D%22110%25%22%20height%3D%22110%25%22%3E%0A%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%228%22%20stdDeviation%3D%2212%22%20flood-color%3D%22%230f172a%22%20flood-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22stamp-grad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23059669%22%20stop-opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23047857%22%20stop-opacity%3D%220.9%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3C!--%20Paper%20Sheet%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22560%22%20height%3D%22760%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221.5%22%20filter%3D%22url(%23paper-shadow)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2222%22%20y%3D%2222%22%20width%3D%22556%22%20height%3D%22756%22%20rx%3D%223%22%20fill%3D%22%23fafafa%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%3C!--%20Top%20Header%20Bar%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2250%22%20y%3D%2245%22%20width%3D%22500%22%20height%3D%222%22%20fill%3D%22%230f172a%22%20opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2275%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22bold%22%20fill%3D%22%230f172a%22%3EDepartment%20of%20Motor%20Vehicles%20-%20Registr%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2298%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22600%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221%22%3EOFFICIAL%20DOCUMENT%20%C2%B7%20VERIFIED%20ARCHIVE%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2275%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20fill%3D%22%2364748b%22%3EDATE%3A%202026-02-12%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2295%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b8%22%3EDOC%20ID%3A%20%239A6DFE4D%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22112%22%20x2%3D%22550%22%20y2%3D%22112%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%224%2C4%22%2F%3E%0A%0A%20%20%20%20%3C!--%20Content%20Lines%20--%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22140%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ESTATE%20DEPARTMENT%20OF%20MOTOR%20VEHICLES%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22162%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EVEHICLE%20REGISTRATION%20CARD%20%26%20OPERATING%20CERTIFICATE%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22184%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EDocument%20Number%3A%20VR-2026-9041289%20%7C%20Valid%20Through%3A%2002%2F28%2F2027%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22206%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22228%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EREGISTERED%20OWNER%3A%20Jordan%20K.%20Hayes%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22250%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ERESIDENCE%3A%20450%20Mission%20Street%2C%20Apt%2014B%2C%20San%20Francisco%2C%20CA%2094105%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22272%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EVEHICLE%20IDENTIFICATION%20NUMBER%20(VIN)%3A%205YJ3E1EB6NF928410%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22294%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EMAKE%3A%20Tesla%20%7C%20MODEL%3A%20Model%20Y%20Long%20Range%20%7C%20YEAR%3A%202024%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22316%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ELICENSE%20PLATE%3A%209XYZ841%20%7C%20CLASS%3A%20Electric%20Passenger%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22338%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22360%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EREGISTRATION%20FEES%20PAID%3A%20%24382.00%20USD%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22382%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ECLEAN%20AIR%20ZERO-EMISSION%20DECAL%20ISSUED%3A%20%23CA-ZEV-99120%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22404%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EREGISTRAR%20OF%20MOTOR%20VEHICLES%3A%20Official%20State%20Seal%20Affixed%3C%2Ftext%3E%0A%0A%20%20%20%20%3C!--%20Watermark%20%2F%20Security%20Stamp%20--%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(410%2C%20640)%20rotate(-12)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22130%22%20height%3D%2248%22%20rx%3D%226%22%20fill%3D%22none%22%20stroke%3D%22%23059669%22%20stroke-width%3D%222.5%22%20stroke-dasharray%3D%226%2C2%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2220%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221.5%22%3EDOCUVAULT%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%3ESECURE%20OCR%20CLOUD%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fg%3E%0A%0A%20%20%20%20%3C!--%20Footer%20Bar%20%26%20Barcode%20simulation%20--%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22710%22%20x2%3D%22550%22%20y2%3D%22710%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22735%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20fill%3D%22%2394a3b8%22%3ECLOUD%20STORAGE%20REPLICA%3A%20ASIA-EAST%20%2F%20US-CENTRAL%20%C2%B7%20SHA-256%20VERIFIED%3C%2Ftext%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(50%2C%20745)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%224%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%227%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2212%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2216%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2219%22%20y%3D%220%22%20width%3D%224%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2229%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2233%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2238%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2243%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fsvg%3E",
+      "fullText": "STATE OF CALIFORNIA\nDEPARTMENT OF MOTOR VEHICLES\nP.O. BOX 942869, SACRAMENTO, CA 94269\n\nVEHICLE REGISTRATION AND OPERATING CERTIFICATE\nCertificate Number: VR-2026-9041289\nIssue Date: February 12, 2026\nExpiration Date: February 28, 2027\n\nREGISTERED OWNER:\nJordan K. Hayes\n450 Mission Street, Apt 14B\nSan Francisco, CA 94105-2201\n\nVEHICLE DESCRIPTION:\nVIN: 5YJ3E1EB6NF928410\nYear: 2024\nMake: TESLA\nModel: MODEL Y LONG RANGE AWD\nBody Type: 4D SUV\nLicense Plate: 9XYZ841\nFuel: Electric (BEV)\nMotive Power: Dual Motor Electric\nUnladen Weight: 4,416 lbs\n\nTRANSACTION SUMMARY & FEES:\nVehicle License Fee (VLF): $248.00\nRegistration Fee: $64.00\nCounty / Transportation Authority Assessment: $30.00\nZero Emission Road Improvement Fee: $40.00\nTOTAL FEES PAID: $382.00\nPayment Confirmation: PAID IN FULL (EFT Web Confirmation #DMV-894102)\n\nKeep this certificate in the motor vehicle at all times as evidence of lawful registration.",
+      "summary": "Official California DMV vehicle registration certificate for 2024 Tesla Model Y (VIN: 5YJ3E1EB6NF928410) issued to Jordan K. Hayes valid through February 28, 2027.",
+      "extractedFields": [
+        {
+          "key": "Registered Owner",
+          "value": "Jordan K. Hayes"
+        },
+        {
+          "key": "VIN",
+          "value": "5YJ3E1EB6NF928410"
+        },
+        {
+          "key": "License Plate",
+          "value": "9XYZ841"
+        },
+        {
+          "key": "Make / Model",
+          "value": "2024 Tesla Model Y Long Range"
+        },
+        {
+          "key": "Certificate ID",
+          "value": "VR-2026-9041289"
+        },
+        {
+          "key": "Issue Date",
+          "value": "2026-02-12"
+        },
+        {
+          "key": "Expiration Date",
+          "value": "2027-02-28"
+        },
+        {
+          "key": "Total Fee Paid",
+          "value": "$382.00 USD"
+        }
+      ],
+      "confidenceScore": 0.99,
+      "language": "English",
+      "isStarred": false,
+      "isArchived": false,
+      "cloudStorage": {
+        "provider": "DocuVault Encrypted Cloud Storage",
+        "bucket": "docuvault-secure-vault-east1",
+        "storageKey": "personal/2026/DMV_Registration_Tesla_2026.enc",
+        "encryptionCipher": "AES-256-GCM",
+        "checksumSHA256": "bc9f20e4c60f274a49c661efc74f51952e4f0a2df3f59e0066b1a3848b57b98f",
+        "syncStatus": "synced",
+        "replicaRegions": [
+          "asia-east1",
+          "us-central1"
+        ],
+        "version": 1
+      },
+      "auditTrail": [
+        {
+          "timestamp": "2026-02-12T16:08:22.000Z",
+          "action": "SCAN_INGESTED",
+          "details": "Government card scanned and cropped automatically",
+          "operator": "Fjm.khi@gmail.com"
+        },
+        {
+          "timestamp": "2026-02-12T16:08:24.000Z",
+          "action": "OCR_EXTRACTED",
+          "details": "Extracted VIN, plate, and expiration dates",
+          "operator": "DocuVault OCR Engine"
+        }
+      ],
+      "userId": "user-001",
+      "currentVersion": 1,
+      "versions": [
+        {
+          "versionNumber": 1,
+          "scannedAt": "2026-02-12T16:08:22.000Z",
+          "changeNote": "Initial scan ingestion",
+          "fileName": "DMV_Vehicle_Registration_2026.pdf",
+          "fileSizeBytes": 280900,
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20800%22%20width%3D%22600%22%20height%3D%22800%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cfilter%20id%3D%22paper-shadow%22%20x%3D%22-5%25%22%20y%3D%22-5%25%22%20width%3D%22110%25%22%20height%3D%22110%25%22%3E%0A%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%228%22%20stdDeviation%3D%2212%22%20flood-color%3D%22%230f172a%22%20flood-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22stamp-grad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23059669%22%20stop-opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23047857%22%20stop-opacity%3D%220.9%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3C!--%20Paper%20Sheet%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22560%22%20height%3D%22760%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221.5%22%20filter%3D%22url(%23paper-shadow)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2222%22%20y%3D%2222%22%20width%3D%22556%22%20height%3D%22756%22%20rx%3D%223%22%20fill%3D%22%23fafafa%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%3C!--%20Top%20Header%20Bar%20--%3E%0A%20%20%20%20%3Crect%20x%3D%2250%22%20y%3D%2245%22%20width%3D%22500%22%20height%3D%222%22%20fill%3D%22%230f172a%22%20opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2275%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22bold%22%20fill%3D%22%230f172a%22%3EDepartment%20of%20Motor%20Vehicles%20-%20Registr%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2298%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22600%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221%22%3EOFFICIAL%20DOCUMENT%20%C2%B7%20VERIFIED%20ARCHIVE%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2275%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2211%22%20fill%3D%22%2364748b%22%3EDATE%3A%202026-02-12%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22550%22%20y%3D%2295%22%20text-anchor%3D%22end%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20fill%3D%22%2394a3b8%22%3EDOC%20ID%3A%20%239A6DFE4D%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22112%22%20x2%3D%22550%22%20y2%3D%22112%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%224%2C4%22%2F%3E%0A%0A%20%20%20%20%3C!--%20Content%20Lines%20--%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22140%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ESTATE%20DEPARTMENT%20OF%20MOTOR%20VEHICLES%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22162%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EVEHICLE%20REGISTRATION%20CARD%20%26%20OPERATING%20CERTIFICATE%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22184%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EDocument%20Number%3A%20VR-2026-9041289%20%7C%20Valid%20Through%3A%2002%2F28%2F2027%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22206%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22228%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EREGISTERED%20OWNER%3A%20Jordan%20K.%20Hayes%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22250%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ERESIDENCE%3A%20450%20Mission%20Street%2C%20Apt%2014B%2C%20San%20Francisco%2C%20CA%2094105%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22272%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EVEHICLE%20IDENTIFICATION%20NUMBER%20(VIN)%3A%205YJ3E1EB6NF928410%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22294%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EMAKE%3A%20Tesla%20%7C%20MODEL%3A%20Model%20Y%20Long%20Range%20%7C%20YEAR%3A%202024%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22316%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3ELICENSE%20PLATE%3A%209XYZ841%20%7C%20CLASS%3A%20Electric%20Passenger%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22338%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3E------------------------------------------------------------%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22360%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3EREGISTRATION%20FEES%20PAID%3A%20%24382.00%20USD%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22382%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20fill%3D%22%231e293b%22%3ECLEAN%20AIR%20ZERO-EMISSION%20DECAL%20ISSUED%3A%20%23CA-ZEV-99120%3C%2Ftext%3E%0A%3Ctext%20x%3D%2250%22%20y%3D%22404%22%20font-family%3D%22monospace%2C%20sans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22normal%22%20fill%3D%22%23475569%22%3EREGISTRAR%20OF%20MOTOR%20VEHICLES%3A%20Official%20State%20Seal%20Affixed%3C%2Ftext%3E%0A%0A%20%20%20%20%3C!--%20Watermark%20%2F%20Security%20Stamp%20--%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(410%2C%20640)%20rotate(-12)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22130%22%20height%3D%2248%22%20rx%3D%226%22%20fill%3D%22none%22%20stroke%3D%22%23059669%22%20stroke-width%3D%222.5%22%20stroke-dasharray%3D%226%2C2%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2220%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%20letter-spacing%3D%221.5%22%3EDOCUVAULT%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2265%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20font-weight%3D%22bold%22%20fill%3D%22%23059669%22%3ESECURE%20OCR%20CLOUD%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fg%3E%0A%0A%20%20%20%20%3C!--%20Footer%20Bar%20%26%20Barcode%20simulation%20--%3E%0A%20%20%20%20%3Cline%20x1%3D%2250%22%20y1%3D%22710%22%20x2%3D%22550%22%20y2%3D%22710%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%22735%22%20font-family%3D%22sans-serif%22%20font-size%3D%229%22%20fill%3D%22%2394a3b8%22%3ECLOUD%20STORAGE%20REPLICA%3A%20ASIA-EAST%20%2F%20US-CENTRAL%20%C2%B7%20SHA-256%20VERIFIED%3C%2Ftext%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(50%2C%20745)%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%224%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%227%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2212%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2216%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2219%22%20y%3D%220%22%20width%3D%224%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2229%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2233%22%20y%3D%220%22%20width%3D%223%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2238%22%20y%3D%220%22%20width%3D%222%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2243%22%20y%3D%220%22%20width%3D%221%22%20height%3D%2215%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fsvg%3E",
+          "fullText": "STATE OF CALIFORNIA\nDEPARTMENT OF MOTOR VEHICLES\nP.O. BOX 942869, SACRAMENTO, CA 94269\n\nVEHICLE REGISTRATION AND OPERATING CERTIFICATE\nCertificate Number: VR-2026-9041289\nIssue Date: February 12, 2026\nExpiration Date: February 28, 2027\n\nREGISTERED OWNER:\nJordan K. Hayes\n450 Mission Street, Apt 14B\nSan Francisco, CA 94105-2201\n\nVEHICLE DESCRIPTION:\nVIN: 5YJ3E1EB6NF928410\nYear: 2024\nMake: TESLA\nModel: MODEL Y LONG RANGE AWD\nBody Type: 4D SUV\nLicense Plate: 9XYZ841\nFuel: Electric (BEV)\nMotive Power: Dual Motor Electric\nUnladen Weight: 4,416 lbs\n\nTRANSACTION SUMMARY & FEES:\nVehicle License Fee (VLF): $248.00\nRegistration Fee: $64.00\nCounty / Transportation Authority Assessment: $30.00\nZero Emission Road Improvement Fee: $40.00\nTOTAL FEES PAID: $382.00\nPayment Confirmation: PAID IN FULL (EFT Web Confirmation #DMV-894102)\n\nKeep this certificate in the motor vehicle at all times as evidence of lawful registration.",
+          "summary": "Official California DMV vehicle registration certificate for 2024 Tesla Model Y (VIN: 5YJ3E1EB6NF928410) issued to Jordan K. Hayes valid through February 28, 2027.",
+          "extractedFields": [
+            {
+              "key": "Registered Owner",
+              "value": "Jordan K. Hayes"
+            },
+            {
+              "key": "VIN",
+              "value": "5YJ3E1EB6NF928410"
+            },
+            {
+              "key": "License Plate",
+              "value": "9XYZ841"
+            },
+            {
+              "key": "Make / Model",
+              "value": "2024 Tesla Model Y Long Range"
+            },
+            {
+              "key": "Certificate ID",
+              "value": "VR-2026-9041289"
+            },
+            {
+              "key": "Issue Date",
+              "value": "2026-02-12"
+            },
+            {
+              "key": "Expiration Date",
+              "value": "2027-02-28"
+            },
+            {
+              "key": "Total Fee Paid",
+              "value": "$382.00 USD"
+            }
+          ],
+          "confidenceScore": 0.99,
+          "checksumSHA256": "bc9f20e4c60f274a49c661efc74f51952e4f0a2df3f59e0066b1a3848b57b98f",
+          "operator": "Jordan Hayes"
+        }
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "id": "folder-fin",
+      "name": "Finance & Tax",
+      "description": "Invoices, tax returns, audits, statements & wire confirmations",
+      "icon": "dollar-sign",
+      "color": "emerald",
+      "userId": "user-001"
+    },
+    {
+      "id": "folder-leg",
+      "name": "Legal & Contracts",
+      "description": "Non-disclosure agreements, master contracts, leases & compliance",
+      "icon": "scale",
+      "color": "blue",
+      "userId": "user-001"
+    },
+    {
+      "id": "folder-med",
+      "name": "Medical & Health",
+      "description": "Clinical reports, lab panels, immunizations & prescriptions",
+      "icon": "heart",
+      "color": "rose",
+      "userId": "user-001"
+    },
+    {
+      "id": "folder-rec",
+      "name": "Receipts & Expenses",
+      "description": "Itemized receipts, travel disbursements & company expenses",
+      "icon": "receipt",
+      "color": "amber",
+      "userId": "user-001"
+    },
+    {
+      "id": "folder-per",
+      "name": "Personal Records",
+      "description": "Government IDs, vehicle registrations, diplomas & warranties",
+      "icon": "user",
+      "color": "purple",
+      "userId": "user-001"
+    },
+    {
+      "id": "folder-fin-user-1791911194541",
+      "userId": "user-1791911194541",
+      "name": "Finance & Tax",
+      "description": "Invoices, receipts, tax returns",
+      "icon": "dollar-sign",
+      "color": "emerald"
+    },
+    {
+      "id": "folder-leg-user-1791911194541",
+      "userId": "user-1791911194541",
+      "name": "Legal & Contracts",
+      "description": "Agreements, leases, terms",
+      "icon": "scale",
+      "color": "blue"
+    },
+    {
+      "id": "folder-per-user-1791911194541",
+      "userId": "user-1791911194541",
+      "name": "Personal Records",
+      "description": "IDs, records, policies",
+      "icon": "user",
+      "color": "purple"
+    }
+  ]
+}

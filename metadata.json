@@ -1,0 +1,6 @@
+{
+  "name": "DocuVault AI - Smart Document Scanner & Cloud Storage",
+  "description": "Enterprise-grade document scanner with OCR searchable text extraction, intuitive folder and tag organization, and secure encrypted cloud storage.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
